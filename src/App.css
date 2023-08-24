@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.heading {
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.sub-container {
+  width: 646px;
+  height: 748px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bdl-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+hr {
+  width: 100px;
+  height: 1px;
+}
+.bundle-heading {
+  color: #cd264f;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 340px;
+  border-radius: 3.615px;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: roboto;
+}
+.heading-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #cd264f;
+  align-self: center;
+}
+.input-value-container {
+  display: flex;
+}
+.input-item {
+  margin-right: 10px;
+}
+.product-price-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.quantity-text {
+  color: #000;
+  font-family: roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.price-text {
+  color: #000;
+  font-family: roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
+}
+.discount-text {
+  color: #000;
+  font-family: roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.pair-2-input-container {
+  border-radius: 3.615px;
+  border: 0.904px solid #f88ca7;
+  background: #fff4f7;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 340px;
+}
+.input-2-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.most-popular-text {
+  color: #cd264f;
+  font-family: roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.crossed-price-text {
+  color: #000;
+  font-family: roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+.filters-text-container {
+  display: flex;
+  margin-left: 20px;
+}
+.size-filter-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 65.978px;
+}
+.first-prefered-label-text {
+  color: #000;
+  font-family: roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 6px;
+}
+.product-size-color-container {
+  display: flex;
+  margin-bottom: 7px;
+}
+.size-select-element-container {
+  width: 65.978px;
+  height: 25.306px;
+  margin-right: 6px;
+}
+.free-shipping-order-total-container {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+}
+.free-shipping-text {
+  color: #cd264f;
+  font-family: roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.total-price-text {
+  color: #000;
+  font-family: roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.price-text {
+  font-weight: 700;
+}
+.add-button {
+  border-radius: 4px 4px 4px 0px;
+  background: #cd264f;
+  width: 340px;
+  height: 48px;
+  color: #fff;
+  font-family: roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-width: 0px;
+}
+.subsidiary-text {
+  color: #000;
+  font-family: roboto;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  padding-left: 5px;
+  align-self: flex-end;
+}
+
+.last-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 340px;
+}
